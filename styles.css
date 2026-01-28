@@ -1,0 +1,37 @@
+body {
+    background-color: hsl(210, 100%, 15%);
+    color: hsl(210, 100%, 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#label {
+    display: block;
+    font-size: 8em;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+.btns {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: hsl(210, 100%, 100%);
+    background-color: hsla(148, 75%, 44%, 0.916);
+    border: none;
+    border-radius: 5px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.btns:hover, .btns:active {
+    background-color: hsla(171, 78%, 34%, 0.916);
+}
